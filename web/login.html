@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://www.17sucai.com/preview/1424582/2020-10-11/p/index.html -->
+<html lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Login</title>
+
+<!--图标库 可无视-->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!--核心样式-->
+<link rel="stylesheet" href="css/style.css">
+
+<!--toastr通知-->
+<link rel="stylesheet" href="css/toastr.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/toastr.js"></script>
+
+<!--jQuery confirm-->
+<link rel="stylesheet" href="css/jquery-confirm.css">
+<script src="js/jquery-confirm.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div class="card"></div>
+  <div class="card">
+    <h1 class="title">用户登录</h1>
+    <form>
+      <div class="input-container">
+        <input type="text" id="login_username" required="required">
+        <label for="login_username">用户名</label>
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="password" id="login_password" required="required">
+        <label for="login_password">密码</label>
+        <div class="bar"></div>
+      </div>
+      <div class="button-container">
+        <button id="login" type="button"><span>登录</span></button>
+      </div>
+    </form>
+  </div>
+  <div class="card alt">
+    <div class="toggle"></div>
+    <h1 class="title">注册
+      <div class="close"></div>
+    </h1>
+    <form id="r_form">
+      <div class="input-container">
+        <input type="text" id="r_email" required="required">
+        <label for="r_email">邮箱</label>
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="text" id="r_username" required="required">
+        <label for="r_username">用户名</label>
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="password" id="r_password" required="required">
+        <label for="r_password">密码</label>
+        <div class="bar"></div>
+      </div>
+      <div class="input-container">
+        <input type="password" id="r_password_r" required="required">
+        <label for="r_password_r">确认密码</label>
+        <div class="bar"></div>
+      </div>
+      <div class="button-container">
+        <button id="regist" type="button"><span>提交注册</span></button>
+      </div>
+    </form>
+  </div>
+</div>
+<script src="js/config.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/login.js"></script>
+
+
+</body></html>
